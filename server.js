@@ -221,7 +221,7 @@ const tutorials = [
 ]
 
 
-app.get('/tutorials', function(req, res) {
+app.get('/', function(req, res) {
   console.log("GET from server");
   res.send(tutorials);
 });
