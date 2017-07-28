@@ -1,6 +1,6 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var app = express();
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
 
 app.all('/*', function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -12,7 +12,7 @@ app.all('/*', function(req, res, next) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-var tutorials = [
+const tutorials = [
   {
     id: 1,
     title: "Backyard",
