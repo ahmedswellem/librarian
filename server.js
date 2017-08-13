@@ -15,30 +15,30 @@ app.use(bodyParser.urlencoded({extended: false}));
 const tutorials = [
   {
     id: 1,
-    title: "Backyard",
-    description: "Travis Scott - Days Before the Rodeo",
+    appName: "Backyard",
+    artist: "Travis Scott - Days Before the Rodeo",
     iframe: "<iframe width='100%' height='600' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163746355&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true'></iframe>",
-    thumbnail: "https://myblabber.com/be-master/uploads/category_image/1--.jpg"
+    imageURLString: "https://i1.sndcdn.com/artworks-000088468281-q999dc-t200x200.jpg"
   },
   {
     id: 2,
-    title: "Points On The Board (Prod. @Matics_Music & @KillBighead)",
-    description: "Yung Pinch - #4EVERFRIDAY",
-    thumbnail: "https://i1.sndcdn.com/artworks-000227672455-d4fpmp-t500x500.jpg",
+    appName: "Points On The Board (Prod. @Matics_Music & @KillBighead)",
+    artist: "Yung Pinch - #4EVERFRIDAY",
+    imageURLString: "https://i1.sndcdn.com/artworks-000227672455-d4fpmp-t500x500.jpg",
     iframe: '<iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327329330&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>'
   },
   {
     id: 3,
-    title: "Money Power Respect",
-    description: "Travis Scott - Money Power Respect",
-    thumbnail: "http://streetssalute.com/wp-content/uploads/2016/08/Travis-Scott-Money-Power-Respect-500x500.jpg",
+    appName: "Money Power Respect",
+    artist: "Travis Scott - Money Power Respect",
+    imageURLString: "http://streetssalute.com/wp-content/uploads/2016/08/Travis-Scott-Money-Power-Respect-500x500.jpg",
     iframe: '<iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/322459275&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>'
   },
   {
     id: 4,
     title: "Drugs You Should Try It",
     description: "Travis Scott - Days Before the Rodeo",
-    thumbnail: "https://i1.sndcdn.com/artworks-000088468281-q999dc-t200x200.jpg",
+    imageURLString: "https://i1.sndcdn.com/artworks-000088468281-q999dc-t200x200.jpg",
     iframe: '<iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163746368&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>'
   },
   {
